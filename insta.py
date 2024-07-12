@@ -30,7 +30,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'Chilling LiveStream',
+    'broadcast_message': 'Horror Nights with resident evil 2',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
