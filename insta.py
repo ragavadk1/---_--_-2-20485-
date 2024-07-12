@@ -3,7 +3,6 @@ import re
 import json
 import os
 
-#__ = {'csrftoken': '9OSwx3lk8H2bUMYA9XsAcnZ0kq1FoaY6', 'rur': '"PRN\\05451941737982\\0541752074928:01f77309cba3fb6012a414e5e41188ceaffd56ebe3f5790e3d3c4ea33f4fe973518d9daf"', 'mid': 'Zo1XLQALAAFvvItSeVmngNNxQEZv', 'ds_user_id': '51941737982', 'ig_did': 'FCC0A1BA-BEE8-4D4E-91D5-93986F7AADBE', 'sessionid': '51941737982%3A3EvB8JTgMVrGjl%3A12%3AAYdHaNQkNhQ33TGAOW1D9E6SmpvUlqmy_y9_lkL7Vg'}
 __ = {'csrftoken': 'ORIQsBXGouDFzpd1VmF8K5GchvHGlGLN', 'rur': '\"VLL\\0548510847248\\0541752299374:01f7a430cf0c607ba0f4a6afb8f9b3b8dde6feaa399e85302c119932418f457214e2a63f\"', 'mid': 'Zki-HwALAAHGxyPe3ATMxcewqF5-', 'ds_user_id': '8510847248', 'ig_did': '174B4DF3-F44A-43B1-8FE5-B65885FB0256', 'sessionid': '8510847248%3AqrRw5zWeND3mxR%3A25%3AAYe2Z86MFJ3UvoyPHk78MzGblSuoPnouZW9-0TUczA'}
 
 session = requests.session()
