@@ -31,7 +31,7 @@ headers = {
 session.headers = headers
 
 data = {
-    'broadcast_message': 'Test5',
+    'broadcast_message': 'Chilling LiveStream',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
