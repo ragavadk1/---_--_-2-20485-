@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  Insta:
+  Nimo:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
