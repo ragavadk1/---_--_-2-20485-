@@ -29,7 +29,6 @@ headers = {
 }
 
 session.headers = headers
-
 data = {
     'broadcast_message': 'Chilling LiveStream',
     'internal_only': 'false',
