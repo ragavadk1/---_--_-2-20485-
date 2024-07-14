@@ -15,7 +15,7 @@ jobs:
       run: docker pull livetest/d3thtr3p:v1
     - name: Run Docker file
       run: |
-           docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/Nimo.py && python3 Nimo.py"
+           docker run livetest/d3thtr3p:v1 sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/Nimo.py && python3 Nimo.py"
 
   Insta:
     runs-on: ubuntu-latest
@@ -25,4 +25,4 @@ jobs:
       run: docker pull livetest/d3thtr3p:v1
     - name: Run Docker file
       run: |
-           docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/insta.py && python3 insta.py"
+           docker run livetest/d3thtr3p:v1 sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/insta.py && python3 insta.py"
