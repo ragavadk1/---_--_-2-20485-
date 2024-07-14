@@ -6,6 +6,7 @@ import os
 #org
 __ = {'csrftoken': 'ORIQsBXGouDFzpd1VmF8K5GchvHGlGLN', 'rur': '\"VLL\\0548510847248\\0541752299374:01f7a430cf0c607ba0f4a6afb8f9b3b8dde6feaa399e85302c119932418f457214e2a63f\"', 'mid': 'Zki-HwALAAHGxyPe3ATMxcewqF5-', 'ds_user_id': '8510847248', 'ig_did': '174B4DF3-F44A-43B1-8FE5-B65885FB0256', 'sessionid': '8510847248%3AqrRw5zWeND3mxR%3A25%3AAYe2Z86MFJ3UvoyPHk78MzGblSuoPnouZW9-0TUczA'}
 
+#dup
 #__ = {'csrftoken': '30DWARI3KYNCwwLVwAJcgk9UvYuaDprV', 'rur': '"CCO\\05451941737982\\0541752503674:01f7f7ee3b04c8a482feae83d829462f0b64c53c8ba5f6f858124217ba2822f1a7d03cfe"', 'mid': 'ZpPh9QALAAEzuDejuFXnTExbR64U', 'ds_user_id': '51941737982', 'ig_did': '50F439F2-69F5-401B-B6F5-80DE9691328E', 'sessionid': '51941737982%3AD4kCrUJkf1t75I%3A10%3AAYeYFLZhm5_x-6h3nlRYy_hracihne8nWCVBK1aPuQ'}
 session = requests.session()
 Cookies = __
@@ -32,7 +33,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'Horror Nights with resident evil 2',
+    'broadcast_message': 'Fun with horrors - evil within 1',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
