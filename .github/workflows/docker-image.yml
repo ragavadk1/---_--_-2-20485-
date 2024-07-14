@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Pull Docker image
-      run: docker pull livetest/d3thtr3p:latest
+      run: docker pull livetest/d3thtr3p:v1
     - name: Run Docker file
       run: |
            docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/Nimo.py && python3 Nimo.py"
@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Pull Docker image
-      run: docker pull livetest/d3thtr3p:latest
+      run: docker pull livetest/d3thtr3p:v1
     - name: Run Docker file
       run: |
            docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/insta.py && python3 insta.py"
