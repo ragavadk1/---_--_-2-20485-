@@ -33,7 +33,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'Evil Within 1 part-5',
+    'broadcast_message': 'Lunch at night - horror vibes',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
