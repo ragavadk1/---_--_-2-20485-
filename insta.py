@@ -35,7 +35,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'gotha mudikurom - evil within',
+    'broadcast_message': 'gomala evil nights 🤔',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
