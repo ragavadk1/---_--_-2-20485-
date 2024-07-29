@@ -35,7 +35,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'just chatting .....chill nights',
+    'broadcast_message': 'Forza Horizon LIVE',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
