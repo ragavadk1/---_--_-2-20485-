@@ -35,7 +35,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'Forza Horizon LIVE',
+    'broadcast_message': 'Npc life in watchdogs2',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
