@@ -35,7 +35,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': '┗━━━━━━⊱ 𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏'𝒔 𝑪𝒓𝒆𝒆𝒅 𝑶𝒅𝒚𝒔𝒔𝒆𝒚 ⊰━━━━━━┛',
+    'broadcast_message': '𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏'𝒔 𝑪𝒓𝒆𝒆𝒅 𝑶𝒅𝒚𝒔𝒔𝒆𝒚',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
