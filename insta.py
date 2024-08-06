@@ -34,7 +34,7 @@ headers = {
 
 session.headers = headers
 data = {
-    'broadcast_message': 'paranormal Activities 😨',
+    'broadcast_message': '𝘽𝙖𝙩𝙢𝙖𝙣: 𝘼𝙧𝙠𝙝𝙖𝙢 𝙆𝙣𝙞𝙜𝙝𝙩',
     'internal_only': 'false',
     'preview_height': '1920',
     'preview_width': '1080',
